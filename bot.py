@@ -2,7 +2,7 @@ import os
 import discord
 from discord.ext import commands
 token = 'токен' 
-words = ["маты", "маты", "маты"] 
+words = ["хуй", "маты", "маты"] 
 bot = commands.Bot(command_prefix= 'префикс')
 @bot.event
 async def on_message(message) :
