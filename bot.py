@@ -14,4 +14,4 @@ async def on_message(message) :
             break
         return
 token = os.environ.get('token')
-bot.run (token)
+bot.run(token)
