@@ -10,7 +10,7 @@ async def on_message(message) :
     for i in words:
         if i in msg:
             await message.channel.purge(limit=1)
-            await message.channel.send(f"{message.author.mention}, не матерись :)")
+            await message.channel.send(f"{message.author.mention}, <#!735777673275637792> 2.6:)")
             break
 token = os.environ.get('token')
 bot.run(token)
