@@ -1,7 +1,7 @@
 import os
 import discord
 from discord.ext import commands
-words = ["хуй", "пизд", "хуе", "хуё", "бля", "еба", "блет","пидор"] 
+words = ["хуй", "пизд", "хуе", "хуё", "бля", "еба", "блет","пидор", "хую", "хуя" ] 
 bot = commands.Bot(command_prefix= '¥')
 @bot.event
 async def on_message(message) :
