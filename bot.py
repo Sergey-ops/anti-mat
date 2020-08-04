@@ -10,7 +10,7 @@ async def on_message(message) :
     for i in words:
         if i in msg:
             await message.channel.purge(limit=1)
-            await message.channel.send(f"{message.author.mention}, 2.6 :)")
+            await message.channel.send("Сообщение удалено по причине: 2.6")
             break
 token = os.environ.get('token')
 bot.run(token)
